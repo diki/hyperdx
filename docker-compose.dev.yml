@@ -105,7 +105,7 @@ services:
       CLICKHOUSE_USER: aggregator
       FRONTEND_URL: 'http://localhost:8080' # need to be localhost (CORS)
       HYPERDX_LOG_LEVEL: ${HYPERDX_LOG_LEVEL}
-      MONGO_URI: 'mongodb://db:27017/hyperdx'
+      MONGO_URI: 'mongodb://194.163.165.152:27017/hyperdx'
       NODE_ENV: development
       PORT: 8001
       REDIS_URL: redis://redis:6379
@@ -140,7 +140,7 @@ services:
       HYPERDX_LOG_LEVEL: ${HYPERDX_LOG_LEVEL}
       INGESTOR_API_URL: 'http://ingestor:8002'
       MINER_API_URL: 'http://miner:5123'
-      MONGO_URI: 'mongodb://db:27017/hyperdx'
+      MONGO_URI: 'mongodb://194.163.165.152:27017/hyperdx'
       NODE_ENV: development
       OTEL_EXPORTER_OTLP_ENDPOINT: 'http://otel-collector:4318'
       OTEL_SERVICE_NAME: 'hdx-oss-dev-task-check-alerts'
@@ -178,7 +178,7 @@ services:
       HYPERDX_LOG_LEVEL: ${HYPERDX_LOG_LEVEL}
       INGESTOR_API_URL: 'http://ingestor:8002'
       MINER_API_URL: 'http://miner:5123'
-      MONGO_URI: 'mongodb://db:27017/hyperdx'
+      MONGO_URI: 'mongodb://194.163.165.152:27017/hyperdx'
       NODE_ENV: development
       OTEL_EXPORTER_OTLP_ENDPOINT: 'http://otel-collector:4318'
       OTEL_SERVICE_NAME: 'hdx-oss-dev-api'
